@@ -14,6 +14,7 @@
     <bean id ="webServiceDataProvider"
           class="com.ioc.coupling.WebServiceDatabaseProvider"/>
 
+<<<<<<< HEAD
     <bean id="userManagerWithUserDataProvider" class="com.ioc.coupling.UserManager">
         <constructor-arg ref="userDataProvider" />
     </bean>
@@ -24,5 +25,7 @@
 <!--        <constructor-arg ref="webServiceDataProvider" />-->
 <!--    </bean>-->
 
+=======
+>>>>>>> c2c8cb04635dc0594464c40b27faeab953da976a
 
 </beans>
